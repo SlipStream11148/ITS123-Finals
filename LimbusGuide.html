@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limbus Company Battle Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('game-banner.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .guide-index {
+            position: fixed;
+            right: 10px;
+            top: 100px;
+            width: 220px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .guide-index a {
+            color: white;
+            display: block;
+            padding: 5px 0;
+            text-decoration: none;
+        }
+        .guide-index a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Game Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#guide">Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <h1>Limbus Company Battle Guide</h1>
+        <p>Master the mechanics and strategies to excel in battle</p>
+    </section>
+    
+    <div class="guide-index">
+        <h5>Guide Index</h5>
+        <a href="#guide">Introduction</a>
+        <a href="#combat-mechanics-1">I - Combat Mechanics Pt.1</a>
+        <a href="#combat-mechanics-2">i - Combat Mechanics Pt.2</a>
+    </div>
+    
+    <section id="guide" class="container container-content py-5">
+        <h2 class="text-center mb-4">Welcome Introduction</h2>
+        <p>Welcome to the guide for Limbus Company, new Manager. This guide will help you master the game with detailed strategies and tips.</p>
+    </section>
+    
+
+
+<!--i - Combat Mechanics Pt.1-->
+
+
+    <section id="combat-mechanics-1" class="container container-content py-5">
+        <h2 class="text-left mb-4">I - Combat Mechanics Pt.1</h2>
+
+	<!--i - Health and Stagger-->
+
+        <h3><strong>Health and Stagger</strong></h3>
+	<div class="CM1">
+		<img src="https://images.steamusercontent.com/ugc/2503528387608581768/38B803B61D5DFAECA964916F1D515C20078BF2F9/" alt="Game Banner">
+        	<p>Health is the determining factor of the amount of damage you can take. It gets reduced when you are attacked and hit by enemies or allies. Once it reaches 0 the unit dies.<br>
+		Besides health every Sinner/Enemy have a Stagger Threshold, after taking a certain amount of damage, and reaches the Stagger Threshold the Sinner/Enemy is Staggered. The Staggered gets 
+		his Type Resistances to Fatal, loses the turn it is going to attack and the next turn and more subsequent damage taken is increased, the higher the Thresholds achieved; higher the damage taken. 
+		Depending on how many Stagger Thresholds a unit can get <span style="color: #d4ac0d;"><b>Stagger</b></span>, <span style="color: #922b21;"><b>Stagger+</b></span> 
+		and <span style="color: #229954;"><b>Stagger++</b></span></p>
+	</div>
+	<style>
+		.CM1 {
+    		display: flex;
+    		align-items: left;
+	}
+		.CM1 img {
+   		width: 200px; 
+		margin-right: 15px; 
+	}
+		.CM1 img right{
+   		width: 200px; 
+		margin-right: 15px; 
+	}
+
+	</style>
+
+
+        <p><br><br><u>Type Resistance Staggered</u></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657083/05A2C888A78A642A62BDAECD2E601B885C7B398D/" alt="Staggered Resistance">
+        
+	<!--i - Sin Afffinity-->
+
+        <h3><br><strong>Sin Affinity</strong></h3>
+
+        <p>Every attack has a specific color corresponding to Sin Affinity. If an attack's color matches an enemy’s resistance, the damage taken is increased or reduced accordingly.</p>
+        <p><strong>LCB Sinner Don Quixote Righteous Retribution requires 3 Lust skills selected</strong></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657069/1738F851DCFE735D965CCB50C0AEEA3D0A59FF36/" alt=Don 3 Lust skills">
+	<br><br><img src="https://images.steamusercontent.com/ugc/2503528387608657078/C5E23DBF0104C6001B0215E9921CF509852B397A/" alt=Don 3 Lust skills">
+	<br><br><p>When a Sinner uses an attack the said color becomes a resource, resources are used to activate Passive and <b>Support Passives</b> or can be used for <b>E.G.O</b> skills.</p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657117/912F729A5772EA9B5BFB14D86CAE51E68A36DB72/" alt=Don 3 Lust skills">
+	
+	<br><br><p><u>LCB Sinner Don Quixote Support after owning 5 Lust resources</u></p>
+       	<img src="https://images.steamusercontent.com/ugc/2503529021818920303/953BEDCFD4B048D549F69978644C90BB73AA5189/" alt=Don passive">
+	<br><br><p>E.G.Os skills (excluding the Sinner's base) changes the Sin Affinity of the Sinner that used it:</p>
+	<br><br><p><u>Don Quixote Sin Resistance</u></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657058/A50EF771678F7D2CB20936FB361E450B87E4B309/" alt=Don Quixote Sin Resistance">
+	<br><br><p><u>Sin Resistance after using Wishing Cairn E.G.O</u></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657092/A8E10C62C9B630FE89CB7193120C1A0F0AC59487/" alt=Don Quixote Sin Resistance">
+
+	<!--i - E.G.O.-->
+
+        <br><br><h3><strong>E.G.O</strong></h3>
+        <p>E.G.O is a special skill with ranks <b>ZAYIN > TETH > HE > WAW > ALEPH. </b>Higher-ranked E.G.O skills are stronger but require more <b>Sanity</b> and <b>Sin Resources.</b></p>
+        <p>Every Sinner have a base ZAYIN E.G.O, these <b>E.G.Os cannot corrode</b>; 
+	<br>Additional E.G.Os obtained throught Extract (Gacha) or Dispense can corrode;
+	<br>E.G.Os able to corrode can also be <b>Overclock</b> to instantly use the corrode version; Overclock can be used holding down the E.G.O. It costs the 1.5x of the Sanity and Sin resources.</p>
+	<p><strong>Forced E.G.O usage through Corrosion or Overclock will consume resources and with not enough resources the cost is substracted beyond 0, meaning it will go negative.</strong></p>
+        <div class="smallbox">
+	<p><small>For reference, with enough resources and overclocking the E.G.O Skill icon is yellow and is called <b>Stable Overclocked E.G.O skill</b> and not enough resources the icon is red and is called <b>Unstable Overclocked 	E.G.O 	skill</b></small></p>
+        </div>
+	<style>
+    	.smallbox {
+        border: 2px solid black; 
+        padding: 10px; 
+        width: fit-content; 
+        background-color: #f0f0f0; 
+        font-size: 12px;
+	margin-bottom: 20px; 
+    	}
+	</style>
+	<p>E.G.Os have a passive same as Identities, but can only be activated after being used once during battle:</p>
+	<p>• E.G.O Awakening (with or without overclock) will activate next turn.
+	<br>• E.G.O Corrosion will activate same turn.<p/>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613583921/DF8625158C4C6E392F44BA749B21D27DF5B1E1EB/" alt=EGO Skill">
+	<p class= "smallbox">Holding the screen with the Mouse Left-Click Button speeds up the <u>E.G.O animation</u>
+	<br>For mobile users: Pressing the finger on screen</p>
+	<p class="smallbox">The Sinner in a <b>Staggered</b> state being able to Corrode will 'Unstagger' and use the Corroded E.G.O instead</p>
+
+	<!--i - Sanity-->
+
+        <br><h3><strong>Sanity</strong></h3>
+        <p><img src="https://images.steamusercontent.com/ugc/2503528387608634648/00BD4D6F939807DD34CA6D05F7B16339657BA1D8/" alt=Sanity Meter">
+	Sanity Points (SP) works similarly as health, can be seen under the sprite, around the portrait or selecting said character, shown by a circle at the right side of the character, determines the morale during the fight, always 	starts at 0 (exceptions apply) and can go to -45 or +45, The higher the sanity the probability is higher to hits heads while the lower the sanity the probability to hits tails is higher and higher the chance the said character 	to corrode their EGO (if there is one able to). Chance of flipping heads by sanity 0 sanity (50%), +45 (95%), -45 (5%)
+	<b>A corrosion of the E.G.O the Sin resources are spent doing so, being possible to run in negative values, and then setting the SP back to 0.</b></p>	
+	
+        <br><br><p>• Every Sinner have a Panic Effect, reaching -45 sanity puts your Sinner into their Panic State.
+	<br>• Every Enemy that have Sanity most of the time has a Low Morale and Panic effect.</p>
+        <img src="https://images.steamusercontent.com/ugc/2503529021819084490/8C877330E15B4E4EC03D628E5810A04A711C69D1/" alt=Panic Types">
+	<br><br><p>Sinners/Enemies have certain conditions to gain Sanity, these conditions varies depending on the Enemy or Identity the Sinner is using:</p>
+	<img src="https://images.steamusercontent.com/ugc/2503529021819084024/CD2429F7B26249B6084316E70390B0EF8A3A792D/" alt=Increase Sanity">
+	<br><br><p>Sinners/Enemies have certain conditions to lose Sanity, these conditions varies depending on the Enemy or Identity the Sinner is using:</p>
+	<img src="https://images.steamusercontent.com/ugc/2503529021819084472/CE1331632C02C3033A6A7D8012721843E0C8CBEA/" alt=Decrease Sanity">
+
+	<!--i - Passive and Support Passive-->
+
+        <br><br><h3><strong>Passive and Support Passive</strong></h3>
+        <p>Every Sinner/Identity have a Passive and a Support Passive.</p>
+	<p>A Passive is applied to a Sinner currently deployed most of the time affecting themselves unless conditions are different.
+	<br>A Support Passive is applied to a Sinner not deployed or in the reserve in case of Chain Battles.
+	<br>The Support Passive affects only one Sinner deployed that meets the requirements of the Support Passive, if more Sinners meet the requirements, it will follow the deployment order. (see further in the guide).</p>
+        <p><u>LCB Sinner Yi Sang Receiving LCB Sinner Don Quixote Support Support Passive</u></p>
+	<img src="https://images.steamusercontent.com/ugc/2503529021818920309/7B7BF57B05D6EE5DAC3C34679E87DA72529096EC/">
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657127/B969B9D48F81B950B2340EFC97CA17F16F1516FF/">
+	
+
+
+	<!--i - Skills-->
+	
+        <br><br><h3><strong>Skills</strong></h3>
+        <p>Each Sinner has at least three (3) <b>Offensive Skills</b> and one (1) <b>Defense Skill (Block/Counter/Evade)</b>.</p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387608657064/C792F7AF337CBDCECD1CBC4FFE760BC4A16D71AD/" alt"skills"><br><br>
+        <ul>
+            <li>Skill 1 - Three (3) copies available</li>
+            <li>Skill 2 - Two (2) copies available</li>
+            <li>Skill 3 - One (1) copy available</li>
+        </ul>
+        <p>Defense Skill has three (3) types:</p>
+        <ul>
+            <li>Block - Reduces damage taken;</li>
+            <li>Evade - Avoids taking damage;</li>
+            <li>Counter - Attacks after receiving damage; (uses Offense Level)</li>
+        </ul>
+	<p><u>Clashable Defensive Skill</u></p>
+        <p>An unique type of defense skill that is able to clash against the opponent Offensive Skill, even if is not targeted for a clash, <u>one-sided attacks will trigger the clashable defense skills.</u></p>
+        <p><strong>Same as Offensive Skills, winning and losing clashes counts for the Sanity Conditions.</strong></p>
+	<p><strong>Some Defensive Skills might have special effects tied to them such as Clashable Guard:</strong></p>
+	<ul>
+            <li>On Clash Win: Raise the target's Stagger Threshold by this unit's final Clash Power.</li>
+            <li>On Clash Lose when hit, reduce the attacker's final Skill Power by this unit's Final Power.</li>
+            <li>On Clash Lose: does not gain Final Power from the following sources: Resonance and the Level disparity against the Attack Skill.</li>
+        </ul>
+	<p class="smallbox">Don't worry about the abundance of conditions stated, each keyword mentioned is covered step-by-step in this guide</p>
+    </section>
+
+
+<!--i - Combat Mechanics Pt.2-->
+
+
+	<section id="combat-mechanics-2" class="container container-content py-5">
+   	<h2 class="text-center mb-4">i - Combat Mechanics Pt.2</h2>
+   	<p>Every Skill has a type of damage (Slash/Pierce/Blunt) and Sin Affinity;
+	Sinners/Enemies have a Type Resistance and Sin Affinity, these are strength/weakness are applied to both:</p>
+	<ul>
+            <li>[2.0] <b>Fatal</b></li>
+            <li>[1.5] <b>Weak</b></li>
+            <li>[1.0] Normal</li>
+	    <li>[0.75] <u>Endure</u></li>
+	    <li>[0.5] <u>Ineffective</u></li>
+        </ul>
+    	<p>These resistances affects the final damage dealt/taken.</p>
+    	<img src="https://images.steamusercontent.com/ugc/2503528387608657054/6FBC7854644650A3626CD61447A4EAC7A537542E/">
+
+	<!--i - Skill-->
+
+    	<br><br><h3><strong>Skill</strong></h3>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613583908/3C42B2DE81682ED9FF1DD42F4E4C4D61D1CFCBD4/">
+	<br><br><p>Skills have a Base Power and a Plus (+) or Minus (-) that increases or decreases after every Coin Flip (Heads or Tails),</p>
+	<p>Example:
+	<br><b>Molar Boatworks Fixer Ishmael</b> Skill 3 <u>Risky Judgement</u> is a Skill with 3 Base Power and has three (3) coins; each heads increases the base power by +5.
+	<br><u>Assuming all coins were heads, the final damage is going to be 18.</u>
+	During an attack depending on the Sinner/Identity each coin have a condition applied besides damage.</p>
+	<p>Example:
+	<br><b>Molar Boatworks Fixer Ishmael</b> Skill 3 <u>Risky Judgement</u> has 3 coins and each coin (regardless of heads or tails) is going to apply the effects each time the coin is flipped.
+	<br><u>Assuming all coins still intact:</u>
+	<br>(I) First coin will apply 5 <u>Sinking Count;</u>
+	<br>(II) Second coin will apply 3 <u>Sinking Potency</u> and if the conditions are met (5 <u>Tremor Count</u> on self) inflict one <u>Fragile</u> next turn;
+	<br>(III) Third coin will apply 3 <u>Sinking Potency</u> and if the conditions are met (5 <u>Tremor Count</u> on self) inflict 2 <u>Fragile</u> next turn.
+	<br><b>Molar Ishmael</b> requires 10 <u>Tremor Count</u> on self to take full benefit of the Skill, the end result being 6 <u>Sinking Potency</u>, 5 <u>Sinking Count</u>, 3 <u>Fragile</u>.</p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613583913/3473007C0D3E73E8CC115563928138929916F884/">
+	<br><br><p>Minus coin skills, most of the time have a higher <b>Base Power</b> that can be decreased every heads flip, making the skill weaker instead of making it stronger.</p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613584484/F377673BECF121965717C975D18ABA165440A220/">
+	<br><br><p>Conditions that can increase the Final Damage:</p>
+	<ul>Coin Power - Increases the Power of each Coin;</li>
+	<li>Attack Power Up - Increases the Skill Final Power;</li>
+	<li>Offense Level Up - Increases Offense Level.</li>
+	</ul>
+
+	<!--i - Attack Weight-->	
+
+	<br><h3><strong>Attack Weight</strong></h3>
+	<p>Attack Weight (Atk Weight) represented by a <u>yellow square</u>, shows how many targets is going to hit. The more squares more targets a single Skill is going to hit.</p>
+
+	<!--i - Resonance (Reson) and Absolute Resonance (A-Reson)-->
+
+	<br><h3><strong>Resonance (Reson) and Absolute Resonance (A-Reson)</strong></h3>
+	<p>Resonance can happen when the Player <u>chains</u> 2 or 3 more skills of the same Sin, chaining separate skills counts only as <u>Resonance</u> while in a sequence of three or more counts as <u>Absolute Resonance</u>
+	<br><strong>Absolute Resonating skills increase the Base Offense of said skills to 3+ or more</strong>. However it is not ideal to always chase it.</p>
+	<p>Other benefits Resonance and Absolute Resonance can give:</p>
+	<ul>
+	<li>Skills that mentions Resonance and Absolute Resonance</li>
+	<li>Activate Identities Res passive/support passive</li>
+	</ul>
+	<p><strong>Breaking a Resonance chain and making another at the same time only considers an Absolute Resonance the chain that has 3 Sins of the same color.</strong></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613583929/2CE023185332C3F691AB77127DEDB9DD97C7B3B9/">
+	<br><br><p>Always read the skills descriptions to know better your Sinner/Identity and take advantage of it.</p>
+
+	<!--i - Offense and Defense Level-->
+
+	<br><h3><strong>Offense and Defense Level</strong></h3>
+	<p>Offense and Defense are stats every Sinner/Enemy have that scales with his level and affects <u>Clashing</u> and <u>Damage</u> of Skills.
+	<br>Every Sinner/Enemy have a <b>different modifier</b> to each skill, it can go <b>positive</b> or <b>negative</b>.</p>
+	<p>Offense Level affects the Base Power of Offensive Skills, contributing to <u>Clash</u> and <u>Damage dealt</u>.</p>
+	<p>For every three (3) Offensive Level difference against the offensive clashing opponent, the attacker with the higher Offensive Level gets one (1) Clashing Power.</p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613673229/A956282F1ECF6D75AD8918DF48CB01F299EC1ABC/">
+	<br><br><p>Defense Level affects the Base Power of Defensive Skills, contributing to <u>Clash</u> and <u>Damage received</u>.</p>
+	<p>For every three (3) Defense Level difference against the opponent Offensive Level the defender gets one (1) Skill Final Power. <b>The attacker gets no benefit for having a higher Offensive Level against Defense Level.</b></p>
+	<img src="https://images.steamusercontent.com/ugc/2503528387613673237/59E57A95E7F2C878AD5821970E3D2F2D4A0B819E/">
+	<br><br><p><strong>Offense and Defense Level are taken into account in damage calculation whenever the Sinner/Enemy is going to deal or receive damage.</strong></p>
+
+	<!--i - Durante-->
+
+	<br><h3><strong>Durante</strong></h3>
+	<p>Unlocked through Story, <b>Durante</b> is a special ability that provides unique effects for a single turn, can only be used once and per day. List of effects that can be currently used:</p>
+	<p><strong>Spoiled to preserve the surprise moment, hover the mouse or tap on the black tag to reveal the spoiler and read the skills.</strong></p>
+	<dl =>
+	<li class="spoiler">Pigritia - Halve the Speed of all enemies.</li>
+	<li class="spoiler">Superbia - Slot in a single E.G.O Skill without consuming any E.G.O resources. (SP not included)</li>
+	</dl>
+	<p><strong>Durante resets every day 6:00 AM KST</strong></p>
+	<style>
+    	.spoiler {
+        background-color: black;
+        color: black; /* Text is hidden */
+        padding: 5px;
+        border-radius: 5px;
+        transition: color 0.2s ease;
+    	}
+    	.spoiler:hover {
+        color: white; /* Reveals text on hover */
+   	 }
+	</style>
+
+	<!--i - Unbreakable Coin-->
+
+	<br><h3><strong>Unbreakable Coin</strong></h3>
+	<p>Skills that has an Unbreakable Coin represented by a <u>red coin</u>, means even after losing a clash the Sinner/Enemy is going to attack. These coins (unless stated otherwise) loses their power is fixed to 1 after losing the 	clash.</p>
+	<img src="https://images.steamusercontent.com/ugc/2509159426540612644/E7F11BA6FA330140B01E46079C3F6BE4CAEFB921/">
+	<br><br><p>Due to being a normal skill even after losing most of its power, Defense Skills are activated before the attack starts giving the opportunity to avoid or mitigate potential damage taken.</p>
+	<img src="https://images.steamusercontent.com/ugc/2509159426540613022/2A3BB551F50D48C260EF1553DAF96A8B193F16AE/">
+	<br><br><p class="smallbox">Although it might sound unfair, this system has a counter play, forcing the Player to plan around staggering the Enemy or to play around the Type Resistances and Sin Resistances to mitigate damage 	taken or encourage the use of Defense Skills</p>
+	</section>
+	
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Online Game Guides. All Rights Reserved.</p>
+        <p id="contact">Contact Us: <a href="mailto:support@onlinegameguides.com" class="text-white">support@onlinegameguides.com</a></p>
+    </footer>
+</body>
+</html>
